@@ -1,0 +1,114 @@
+.hero__text {
+  font-size: 1.2rem;
+  position: absolute;
+  top: 25vh;
+  z-index: 200;
+  left: 9.5vw;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  margin: 10px;
+  padding: 5px;
+  overflow: hidden;
+  width: 120px;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e2e2e2+0,dbdbdb+50,d1d1d1+51,fefefe+100;Grey+Gloss+%231 */
+  background: linear-gradient(135deg,
+          rgb(226, 226, 226) 0%,
+          rgb(219, 219, 219) 50%,
+          rgb(209, 209, 209) 51%,
+          rgb(254, 254, 254) 100%);
+}
+
+
+.images-1200,
+.images-900,
+.images-600 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  object-fit: cover;
+  object-position: center;
+  z-index: 1;
+}
+
+.images-900,
+.images-600 {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .hero__text {
+    top: 14vh;
+    left: 3vw;
+  }
+
+  .images-1200 {
+    display: none;
+  }
+
+  .images-900 {
+    display: block;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero__text {
+    top: 35vh;
+    left: 5vw;
+  }
+
+  .images-900 {
+    display: none;
+  }
+
+  .images-600 {
+    display: block;
+  }
+}
+
+
+.main__hover-action{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 300;
+}
+.main__hover-smithy {
+  cursor: pointer;
+  width: 70%;
+  margin-right: 10px
+}
+
+.main__hover-road {
+  cursor: pointer;
+  margin-left: 30px;
+  width: 40%;
+}
+
+@media (max-width:900px){
+  .main__hover-smithy {
+    width: 60%;
+    margin-right: 40px
+  }
+
+  .main__hover-road {
+    margin-left: 30px;
+    width: 40%;
+  }
+}
+
+@media (max-width:600px){
+  .main__hover-smithy {
+    width: 60%;
+    margin-right: 10px
+  }
+
+  .main__hover-road {
+    margin-left: 30px;
+    width: 40%;
+  }
+}

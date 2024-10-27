@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectTasksOptions">
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="--no-source-map $FileName$:$ProjectFileDir$/src/main/webapp/main_quest/static/styless/css/question_css/$FileNameWithoutExtension$.css" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="scss" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="SCSS_question" />
+      <option name="output" value="$FileNameWithoutExtension$.css:$FileNameWithoutExtension$.css.map" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="sass" />
+      <option name="runOnExternalChanges" value="true" />
+      <option name="scopeName" value="question" />
+      <option name="trackOnlyRoot" value="true" />
+      <option name="workingDir" value="$FileDir$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="--no-source-map $FileName$:$ProjectFileDir$/src/main/webapp/main_quest/static/styless/css/index_css/$FileNameWithoutExtension$.css" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="scss" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="SCSS_index" />
+      <option name="output" value="$FileNameWithoutExtension$.css:$FileNameWithoutExtension$.css.map" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="sass" />
+      <option name="runOnExternalChanges" value="true" />
+      <option name="scopeName" value="index" />
+      <option name="trackOnlyRoot" value="true" />
+      <option name="workingDir" value="$FileDir$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="--no-source-map $FileName$:$ProjectFileDir$/src/main/webapp/main_quest/static/styless/css/registration_css/$FileNameWithoutExtension$.css" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="scss" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="SCSS_registration" />
+      <option name="output" value="$FileNameWithoutExtension$.css:$FileNameWithoutExtension$.css.map" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="sass" />
+      <option name="runOnExternalChanges" value="true" />
+      <option name="scopeName" value="registration" />
+      <option name="trackOnlyRoot" value="true" />
+      <option name="workingDir" value="$FileDir$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="--no-source-map $FileName$:$ProjectFileDir$/src/main/webapp/main_quest/static/styless/css/login_css/$FileNameWithoutExtension$.css" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="scss" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="SCSS_login" />
+      <option name="output" value="$FileNameWithoutExtension$.css:$FileNameWithoutExtension$.css.map" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="sass" />
+      <option name="runOnExternalChanges" value="true" />
+      <option name="scopeName" value="login" />
+      <option name="trackOnlyRoot" value="true" />
+      <option name="workingDir" value="$FileDir$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="--no-source-map $FileName$:$ProjectFileDir$/src/main/webapp/main_quest/static/styless/css/smithy_css/$FileNameWithoutExtension$.css" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="scss" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="SCSS_smithy" />
+      <option name="output" value="$FileNameWithoutExtension$.css:$FileNameWithoutExtension$.css.map" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="sass" />
+      <option name="runOnExternalChanges" value="true" />
+      <option name="scopeName" value="smithy" />
+      <option name="trackOnlyRoot" value="true" />
+      <option name="workingDir" value="$FileDir$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="--no-source-map $FileName$:$ProjectFileDir$/src/main/webapp/main_quest/static/styless/css/field_css/$FileNameWithoutExtension$.css" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="scss" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="SCSS_field" />
+      <option name="output" value="$FileNameWithoutExtension$.css:$FileNameWithoutExtension$.css.map" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="sass" />
+      <option name="runOnExternalChanges" value="true" />
+      <option name="scopeName" value="field" />
+      <option name="trackOnlyRoot" value="true" />
+      <option name="workingDir" value="$FileDir$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="--no-source-map $FileName$:$ProjectFileDir$/src/main/webapp/main_quest/static/styless/css/lastPage_css/$FileNameWithoutExtension$.css" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="scss" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="SCSS_lastPage" />
+      <option name="output" value="$FileNameWithoutExtension$.css:$FileNameWithoutExtension$.css.map" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="sass" />
+      <option name="runOnExternalChanges" value="true" />
+      <option name="scopeName" value="lastPage" />
+      <option name="trackOnlyRoot" value="true" />
+      <option name="workingDir" value="$FileDir$" />
+      <envs />
+    </TaskOptions>
+  </component>
+</project>

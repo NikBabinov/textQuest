@@ -1,0 +1,104 @@
+.main__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login {
+  &__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+  }
+
+  &__legend {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  &__paragraph {
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    height: 2rem;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom-right-radius: 5px;
+  }
+
+  &__paragraph-checkbox {
+    display: flex;
+    justify-content: end;
+  }
+
+
+  &__label {
+    width: 50%;
+    text-align: left;
+  }
+
+  &__label-checkbox {
+    margin-right: 1rem;
+  }
+
+  &__email,
+  &__password {
+    width: 50%;
+    border-bottom: 1px solid black;
+    padding-left: 0.5rem;
+    height: 2rem;
+    border-bottom-right-radius: 5px;
+  }
+
+  &__paragraph-checkbox {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+  }
+
+  &__paragraph-button {
+    display: flex;
+    justify-content: end;
+  }
+
+  &__button {
+    margin-right: 0.5rem;
+    display: flex;
+    font-size: 1.2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    border: 1px solid orange;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 2px #696969;
+    width: 12rem;
+    height: 2.5rem;
+    transition-property: box-shadow;
+    transition-duration: 0.3s;
+  }
+
+  &__button:hover {
+    box-shadow: 4px 4px 4px 3px #696969;
+    transition-property: box-shadow;
+    transition-duration: 0.3s;
+  }
+
+  &__paragraph-text {
+    text-align: center;
+  }
+}
+
+.margin-bottom {
+  margin-bottom: 1.5rem;
+}
+
+.bottom-line {
+  border-bottom: 3px solid orange;
+}
